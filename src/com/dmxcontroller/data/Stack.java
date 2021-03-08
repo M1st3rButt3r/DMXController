@@ -1,3 +1,4 @@
+package com.dmxcontroller.data;
 import java.util.LinkedList;
 import java.util.List;
 

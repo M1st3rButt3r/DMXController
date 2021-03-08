@@ -1,3 +1,4 @@
+package com.dmxcontroller.data;
 
 public class Interface {
 	public String port;
