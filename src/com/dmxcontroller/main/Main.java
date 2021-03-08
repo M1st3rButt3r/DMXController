@@ -1,3 +1,7 @@
+package com.dmxcontroller.main;
+import com.dmxcontroller.data.Channel;
+import com.dmxcontroller.data.Interface;
+
 import javafx.application.Application;
 import javafx.stage.Stage;
 
