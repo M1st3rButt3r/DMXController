@@ -8,13 +8,13 @@ public class Interface {
 		this.port = port;
 	}
 	
-	public void Send(Channel channel) {
+	public void send(Channel channel) {
 		System.out.println("Sended to Channel " + channel.channel + " the value: " + channel.value);
 	}
 	
-	public void Send(Scene scene) {
+	public void send(Scene scene) {
 		for (Channel channel : scene.channels) {
-			Send(channel);
+			send(channel);
 		}
 	}
 }
